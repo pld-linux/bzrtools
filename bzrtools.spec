@@ -35,7 +35,7 @@ included plugins are:
 - patch - apply a patch to your tree from a file or URL
 
 %description -l pl
-BZrTools to zeastaw wtyczek do programu Bazaar-NG (bzr). Zestaw
+BZrTools to zestaw wtyczek do programu Bazaar-NG (bzr). Zestaw
 zawiera nastêpuj±ce narzêdzia:
 - push - u¿ywa programu rsync do wys³ania lokalnych zmian na zdalny
   serwer
@@ -45,7 +45,7 @@ zawiera nastêpuj±ce narzêdzia:
 - clean-tree - usuwa nieznane, ignorowane pliki z projektu
 - graph-ancestry - graficzne przedstawienie rodowodu plików w
   projekcie
-- shell - linia komend programu bzr wraz z autouzupe³nianiem
+- shell - interpreter poleceñ bzr z dope³nianiem poleceñ
 - patch - pozwala na nak³adanie ³at z pliku lub adresu URL
 
 %prep
