@@ -1,17 +1,17 @@
 Summary:	A collection of utilities and plugins for Bazaar-NG
 Summary(pl):	Zbiór narzêdzi i wtyczek dla programu Bazaar-NG
 Name:		bzrtools
-Version:	0.12.2
+Version:	0.13.0
 Release:	1
 License:	GPL v2
 Group:		Development/Version Control
 Source0:	http://panoramicfeedback.com/opensource/%{name}-%{version}.tar.gz
-# Source0-md5:  3653679f3295deca085811e54da2b6fa
+# Source0-md5:  b9d1884d865f37ea6d04d4297d093e89
 URL:		http://bazaar-vcs.org/BzrTools
 BuildRequires:	python >= 1:2.4
 BuildRequires:	rpmbuild(macros) >= 1.219
 %pyrequires_eq  python
-Requires:	bzr >= 0.12
+Requires:	bzr >= 0.13
 Requires:	diffutils
 Requires:	graphviz >= 2.6
 Requires:	librsvg
