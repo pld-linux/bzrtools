@@ -1,17 +1,17 @@
 Summary:	A collection of utilities and plugins for Bazaar-NG
 Summary(pl):	Zbiór narzêdzi i wtyczek dla programu Bazaar-NG
 Name:		bzrtools
-Version:	0.13.0
+Version:	0.14.0
 Release:	1
 License:	GPL v2
 Group:		Development/Version Control
 Source0:	http://panoramicfeedback.com/opensource/%{name}-%{version}.tar.gz
-# Source0-md5:  b9d1884d865f37ea6d04d4297d093e89
+# Source0-md5:	5932729e81f19562a6a844be2555a115
 URL:		http://bazaar-vcs.org/BzrTools
 BuildRequires:	python >= 1:2.4
 BuildRequires:	rpmbuild(macros) >= 1.219
 %pyrequires_eq  python
-Requires:	bzr >= 0.13
+Requires:	bzr >= 0.14
 Requires:	diffutils
 Requires:	graphviz >= 2.6
 Requires:	librsvg
@@ -35,8 +35,8 @@ included plugins are:
 - patch - apply a patch to your tree from a file or URL
 
 %description -l pl
-BZrTools to zestaw wtyczek do programu Bazaar-NG (bzr). Zestaw
-zawiera nastêpuj±ce narzêdzia:
+BZrTools to zestaw wtyczek do programu Bazaar-NG (bzr). Zestaw zawiera
+nastêpuj±ce narzêdzia:
 - push - u¿ywa programu rsync do wys³ania lokalnych zmian na zdalny
   serwer
 - annotate - wy¶wietla przypisy odno¶nie rewizji w ka¿dej linii pliku
