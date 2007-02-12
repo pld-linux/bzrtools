@@ -1,5 +1,5 @@
 Summary:	A collection of utilities and plugins for Bazaar-NG
-Summary(pl):	ZbiÛr narzÍdzi i wtyczek dla programu Bazaar-NG
+Summary(pl.UTF-8):   Zbi√≥r narzƒôdzi i wtyczek dla programu Bazaar-NG
 Name:		bzrtools
 Version:	0.14.0
 Release:	1
@@ -34,19 +34,19 @@ included plugins are:
 - shell - a bzr command interpreter with command completion
 - patch - apply a patch to your tree from a file or URL
 
-%description -l pl
+%description -l pl.UTF-8
 BZrTools to zestaw wtyczek do programu Bazaar-NG (bzr). Zestaw zawiera
-nastÍpuj±ce narzÍdzia:
-- push - uøywa programu rsync do wys≥ania lokalnych zmian na zdalny
+nastƒôpujƒÖce narzƒôdzia:
+- push - u≈ºywa programu rsync do wys≈Çania lokalnych zmian na zdalny
   serwer
-- annotate - wy∂wietla przypisy odno∂nie rewizji w kaødej linii pliku
-- shelve/unshelve - pozwala na powrÛt do wcze∂niejszych zmian,
-  zatwierdzenia zmian i przywrÛcenia stanu sprzed dokonania zmian
+- annotate - wy≈õwietla przypisy odno≈õnie rewizji w ka≈ºdej linii pliku
+- shelve/unshelve - pozwala na powr√≥t do wcze≈õniejszych zmian,
+  zatwierdzenia zmian i przywr√≥cenia stanu sprzed dokonania zmian
 - clean-tree - usuwa nieznane, ignorowane pliki z projektu
-- graph-ancestry - graficzne przedstawienie rodowodu plikÛw w
+- graph-ancestry - graficzne przedstawienie rodowodu plik√≥w w
   projekcie
-- shell - interpreter poleceÒ bzr z dope≥nianiem poleceÒ
-- patch - pozwala na nak≥adanie ≥at z pliku lub adresu URL
+- shell - interpreter polece≈Ñ bzr z dope≈Çnianiem polece≈Ñ
+- patch - pozwala na nak≈Çadanie ≈Çat z pliku lub adresu URL
 
 %prep
 %setup -q -n %{name}
