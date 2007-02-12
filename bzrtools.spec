@@ -1,5 +1,5 @@
 Summary:	A collection of utilities and plugins for Bazaar-NG
-Summary(pl.UTF-8):   Zbiór narzędzi i wtyczek dla programu Bazaar-NG
+Summary(pl.UTF-8):	Zbiór narzędzi i wtyczek dla programu Bazaar-NG
 Name:		bzrtools
 Version:	0.14.0
 Release:	1
