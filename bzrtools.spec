@@ -4,7 +4,7 @@ Summary:	A collection of utilities and plugins for Bazaar
 Summary(pl.UTF-8):	Zbiór narzędzi i wtyczek dla programu Bazaar
 Name:		bzrtools
 Version:	%{ver}.%{minor}
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Development/Version Control
 Source0:	http://panoramicfeedback.com/opensource/%{name}-%{version}.tar.gz
@@ -60,6 +60,7 @@ następujące narzędzia:
 %install
 rm -rf $RPM_BUILD_ROOT
 %{__python} setup.py install \
+	--install-purelib %{py_sitedir} \
 	--optimize=2 \
 	--root=$RPM_BUILD_ROOT
 
@@ -71,4 +72,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc NEWS NEWS.Shelf README README.Shelf TODO TODO.Shelf CREDITS
-%{py_sitescriptdir}/bzrlib/plugins/bzrtools
+%{py_sitedir}/bzrlib/plugins/bzrtools
