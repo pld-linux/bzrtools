@@ -19,7 +19,6 @@ Requires:	graphviz >= 2.6
 Requires:	librsvg
 Requires:	patch
 Requires:	rsync >= 2.6.6
-BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
