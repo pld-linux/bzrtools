@@ -1,14 +1,14 @@
-%define		ver	0.91
+%define		ver	1.0
 %define		minor	0
 Summary:	A collection of utilities and plugins for Bazaar
 Summary(pl.UTF-8):	Zbiór narzędzi i wtyczek dla programu Bazaar
 Name:		bzrtools
 Version:	%{ver}.%{minor}
-Release:	2
+Release:	1
 License:	GPL v2
 Group:		Development/Version Control
 Source0:	http://panoramicfeedback.com/opensource/%{name}-%{version}.tar.gz
-# Source0-md5:	7ca989b950ea59ff02f9425fb3faa39e
+# Source0-md5:	b3ed4d9290bc65daf31d67695eb9f6a1
 URL:		http://bazaar-vcs.org/BzrTools
 BuildRequires:	python-devel >= 1:2.4
 BuildRequires:	rpmbuild(macros) >= 1.219
