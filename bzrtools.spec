@@ -11,6 +11,8 @@ Source0:	http://code.launchpad.net/bzrtools/trunk/%{version}/+download/%{name}-%
 # Source0-md5:	eb4e6eec259d1e9222c0e73318719515
 URL:		http://bazaar-vcs.org/BzrTools
 BuildRequires:	python-devel >= 1:2.4
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
 %pyrequires_eq  python
 Requires:	bzr >= %{ver}
@@ -40,8 +42,7 @@ BZrTools to zestaw wtyczek do programu Bazaar (bzr). Zestaw zawiera
 następujące narzędzia:
 - push - używa programu rsync do wysłania lokalnych zmian na zdalny
   serwer
-- annotate - wyświetla przypisy odnośnie rewizji w każdej linii
-  pliku
+- annotate - wyświetla przypisy odnośnie rewizji w każdej linii pliku
 - shelve/unshelve - pozwala na powrót do wcześniejszych zmian,
   zatwierdzenia zmian i przywrócenia stanu sprzed dokonania zmian
 - clean-tree - usuwa nieznane, ignorowane pliki z projektu
