@@ -1,10 +1,10 @@
-%define		ver	2.1
+%define		ver	2.3
 %define		minor	0
 Summary:	A collection of utilities and plugins for Bazaar
 Summary(pl.UTF-8):	Zbiór narzędzi i wtyczek dla programu Bazaar
 Name:		bzrtools
 Version:	%{ver}.%{minor}
-Release:	2
+Release:	1
 License:	GPL v2
 Group:		Development/Version Control
 Source0:	http://code.launchpad.net/bzrtools/trunk/%{version}/+download/%{name}-%{version}.tar.gz
