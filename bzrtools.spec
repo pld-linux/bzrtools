@@ -8,7 +8,7 @@ Release:	1
 License:	GPL v2
 Group:		Development/Version Control
 Source0:	http://code.launchpad.net/bzrtools/trunk/%{version}/+download/%{name}-%{version}.tar.gz
-# Source0-md5:	eb4e6eec259d1e9222c0e73318719515
+# Source0-md5:	c781d9b099c8cdaee2d0dc2785e90ab7
 URL:		http://bazaar-vcs.org/BzrTools
 BuildRequires:	python-devel >= 1:2.4
 BuildRequires:	python-modules
