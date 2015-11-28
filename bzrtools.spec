@@ -55,11 +55,11 @@ następujące narzędzia:
 %setup -q -n %{name}
 
 %build
-%{__python} setup.py build
+%py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%{__python} setup.py install \
+%py_install \
 	--install-purelib %{py_sitedir} \
 	--optimize=2 \
 	--root=$RPM_BUILD_ROOT
