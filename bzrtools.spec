@@ -13,7 +13,7 @@ URL:		http://bazaar-vcs.org/BzrTools
 BuildRequires:	python-devel >= 1:2.4
 BuildRequires:	python-modules
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 %pyrequires_eq  python
 Requires:	bzr >= %{ver}
 Requires:	diffutils
